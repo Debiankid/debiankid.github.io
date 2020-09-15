@@ -18,7 +18,9 @@ html{
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
 }
-
+.start a{
+  color: inherit;
+}
 .start span {
   cursor: pointer;
   display: inline-block;
