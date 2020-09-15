@@ -1,0 +1,45 @@
+html{
+    background-color:#222629;
+}
+
+.start {
+  display: block;
+  border-radius: 4px;
+  background-color: #86C232;
+  border: #61892F;
+  color: #474B4F;
+  font-size: 28px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  height: 75px;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.start span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.start span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.start:hover span {
+  padding-right: 25px;
+}
+
+.start:hover span:after {
+  opacity: 1;
+  right: 0;
+}
